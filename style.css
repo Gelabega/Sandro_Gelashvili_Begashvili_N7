@@ -1,0 +1,51 @@
+.spinner{
+    position: relative;
+    top: 150px;
+    left: 40%;
+    background-color: transparent;
+    border-radius: 50%; 
+    width: 250px;
+    height: 250px;   
+}
+.same{
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    animation-name: animate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    
+
+
+}
+.spinner_one{
+    border-top: 5px solid red;
+  
+
+    
+}
+.spinner_two{
+    border-bottom: 5px solid rgb(26, 121, 185);
+    
+}
+.spinner_three{
+    border-left: 5px solid rgb(43, 173, 82)
+    
+}
+.text{
+    position: relative;
+    top: 9px;
+    left: 47%;
+
+    
+
+
+
+
+
+}
+@keyframes animate{
+    0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+    }
+
